@@ -1,7 +1,7 @@
 
 
 export default async function page() {
-    const res = await fetch(`/api/hello`)
+    const res = await fetch(`http://localhost:3000/api/hello`)
   const post = await res.json()
     return (
         <div>
